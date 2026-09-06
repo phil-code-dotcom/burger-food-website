@@ -7,7 +7,7 @@
     <link href="./src/output.css" rel="stylesheet">
 </head>
 
-<body class="bg-[#FFCDA2]">
+<body class="bg-[#FFCDA2] overflow-x-hidden">
     <section class=" m-[61px]">
         <nav class="font-poppins flex justify-between items-center text-white">
             <div class="flex items-center gap-[10px]">
@@ -16,11 +16,11 @@
             </div>
             <div class="hidden md:flex justify-between h-[22px] w-[468px] list-none font-bold text-[20px]/[111%]">
                 <li>Home</li>
-                <li>Our outlets</li>
-                <li>Order</li>
-                <li>Contact</li>
+                <li class="z-50">Our outlets</li>
+                <li class="z-50" >Order</li>
+                <li class="z-50" >Contact</li>
             </div>
-            <div class="w-[25px] h-[18px]">
+            <div class="w-[25px] h-[18px] z-50">
                 <img src="assets/nav-toggle.png" alt="hamburger toggle">
             </div>
         </nav>
@@ -68,31 +68,39 @@
                     </div>
                 </div>
 
-                <p class="font-poppins font-bold text-[33px]/[111%] text-white w-[736px] h-[37px]">Crispy, Crunchy,
+                <p class="font-poppins font-bold text-[20px] lg:text-[33px]/[111%] text-white w-full max-w-[736px] h-auto lg:h-[37px]">Crispy, Crunchy,
                     Veggie Deliciousness!</p>
-                <h1 class="font-poppins font-bold text-[100px]/[111%] text-white w-[786px] h-[222px]">Burgers That
+                <h1 class="font-poppins font-bold text-[48px] lg:text-[100px]/[111%] text-white w-full max-w-[786px] h-auto lg:h-[222px]">Burgers That
                     <br>Love the Earth!
                 </h1>
 
-                <div class="w-[646px] h-[93px] flex gap-9 items-center">
+                <div class="w-full max-w-[646px] h-auto lg:h-[93px] flex gap-4 lg:gap-9 items-center">
                     <button
-                        class="bg-white rounded-[17px] w-[233px] h-[93px] font-poppins font-medium text-[28px] text-[#FF7A04]">Explore</button>
+                        class="bg-white rounded-[17px] w-[180px] h-[70px] lg:w-[233px] lg:h-[93px] font-poppins font-medium text-[20px] lg:text-[28px] text-[#FF7A04]">Explore</button>
                     <button
-                        class="w-[93px] h-[93px] rounded-[50%] border-white border-[4px] flex justify-center items-center">
+                        class="w-[70px] h-[70px] lg:w-[93px] lg:h-[93px] rounded-[50%] border-white border-[4px] flex justify-center items-center">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"
-                            class="fill-white w-[44px] h-[44px]">
+                            class="fill-white w-[32px] h-[32px] lg:w-[44px] lg:h-[44px]">
                             <path
                                 d="M187.2 100.9C174.8 94.1 159.8 94.4 147.6 101.6C135.4 108.8 128 121.9 128 136L128 504C128 518.1 135.5 531.2 147.6 538.4C159.7 545.6 174.8 545.9 187.2 539.1L523.2 355.1C536 348.1 544 334.6 544 320C544 305.4 536 291.9 523.2 284.9L187.2 100.9z" />
                         </svg>
                     </button>
-                    <p class="font-poppins font-medium text-[28px]/[111%] text-white w-[254px] h-[31px]">How to get
+                    <p class="font-poppins font-medium text-[18px] lg:text-[28px]/[111%] text-white w-full max-w-[254px] h-auto">How to get
                         order...</p>
                 </div>
             </div>
 
             <!--Right hero-->
-            <div class="relative shrink-0">
-                <img class="absolute w-[925px] h-[925px] top-[-100px] z-40 left-[-170px] max-w-none" src="assets/hero-burger-edit.png" alt="burger">
+            <div class="hidden lg:block relative shrink-0">
+                <svg class="absolute overflow-hidden translate-y-[-280px] z-10 " xmlns="http://www.w3.org/2000/svg"
+                width="911" height="1100">
+                <path fill="#FF9131" d="M0 0h888v1100H0z" />
+                <path fill="#fac393"
+                    d="M0 224h1l.12 2.461c1.333 26.265 4.276 52.017 9.255 77.851l.409 2.134A675 675 0 0 0 14 322l.549 2.539c4.559 20.742 10.757 41.024 16.811 61.365q2.045 6.88 4.079 13.762l.81 2.735 1.615 5.456 1.606 5.427a8461 8461 0 0 1 10.876 36.974q.693 2.378 1.39 4.756c6.677 22.794 11.671 45.798 14.898 69.342q.462 3.324.979 6.64c.545 3.661.997 7.324 1.387 11.004l.273 2.537c4.128 40.295 1.319 80.777-1.64 121.043-.51 6.957-.999 13.916-1.488 20.874-1.951 27.73-3.986 55.453-6.035 83.175q-.964 13.032-1.92 26.065l-.19 2.591-.755 10.317c-.676 9.231-1.357 18.462-2.056 27.692-3.354 41.2-3.354 41.2-4.685 82.495l-.014 2.092C50.389 955.199 63.402 988.334 86 1014l2.398 2.801c23.371 26.651 59.929 44.412 95.227 47.045 18.445 1.194 35.757-1.194 53.871-4.261 40.421-6.753 79.509.028 118.504 10.915 31.577 8.815 63.968 15.563 96.902 15.703l3.356.022c33.497.34 33.497.34 66.742-3.225l1.948-.331c18.96-3.245 37.675-7.437 56.369-11.945 71.902-17.339 137.991-8.603 209.173 7.279 6.02 1.341 12.043 2.673 18.065 4.007 11.41 2.527 22.819 5.065 34.226 7.605a38166 38166 0 0 0 25.279 5.62l10.994 2.443 3.512.781L885 1099v1H0z" />
+                <path fill="#fac393"
+                    d="M0 0h36c-4.571 18.282-4.571 18.282-6.516 24.531l-1.341 4.405-.689 2.254C12.932 78.845 3.503 127.19 1 177H0z" />
+            </svg>
+                <img class="absolute w-[53vw] h-[53vw] top-0 z-40 left-[-170px] max-w-none" src="assets/hero-burger-edit.png" alt="burger">
             </div>
             <!-- <div class="relative overflow-hidden">
                 <img class=" absolute w-[925px] h-[925px] mt-[-250px] z-40 left-[-100px]"
