@@ -30,19 +30,20 @@
 
     <!--hero section-->
     <section class="max-w-[1728px] w-full mx-auto relative">
-        <img src="./assets/orange-hero.png" alt="" class="absolute -right-8 -top-25 hidden xl:flex">
+        <img src="./assets/orange-hero.png" alt="" class="absolute -right-3 -top-25 hidden xl:flex w-full max-w-[911px]">
         <!--Hero-->
-        <div class="flex px-5 sm:px-[61px] max-xl:flex-wrap">
+        <div class="flex px-5 sm:px-[61px] max-xl:flex-wrap w-full">
             <!--Left hero-->
-            <div class="flex flex-col gap-3 relative xl:mt-20">
+            <div class="flex flex-col gap-3 relative xl:mt-20 max-md:w-full">
                 <div class="absolute right-10 top-25 hidden lg:flex"><img class="w-[208.15px] h-[191px]"
                         src="assets/hero-arrow.svg" alt="arrow"></div>
-                <div class="relative h-[170px] w-full max-w-[786px] mt-[150px]">
-                    <div class="bg-[#ffffff83] w-[304px] h-[151px] rounded-2xl absolute top-0 rotate-[-6.08deg]">
+                <div class="relative h-[170px] w-full max-w-[786px] md:mt-[150px] mt-20">
+                    <div
+                        class="bg-[#ffffff83] w-full max-w-[304px] h-[151px] rounded-2xl absolute top-0 rotate-[-6.08deg]">
                     </div>
 
                     <div
-                        class="bg-white w-[304px] h-[151px] rounded-2xl absolute z-80 p-8 flex flex-col justify-between">
+                        class="bg-white w-full max-w-[304px] h-[151px] rounded-2xl absolute z-80 p-8 flex flex-col justify-between">
                         <div class="flex justify-between items-center">
                             <svg xmlns="http://w3.org" viewBox="0 0 24 24" class="w-[29px] h-[29px] fill-[#FF7A04]">
                                 <path
@@ -135,6 +136,161 @@
                 <img class=" absolute w-[925px] h-[925px] mt-[-250px] z-40 left-[-100px]"
                     src="/assets/hero-burger-edit.png" alt="">
             </div> -->
+        </div>
+    </section>
+
+    <!--hot items section-->
+    <section class="flex flex-col gap-3 font-poppins xl:mt-63 text-center">
+        <div class="flex items-center justify-center gap-3 text-[38px]/[111%]">
+            <span class="h-[4px] w-[28px] bg-white"></span>
+            <h2 class="text-[38px] font-semibold text-white font-poppins">HOT ITEMS</h2>
+            <span class="h-[4px] w-[28px] bg-white"></span>
+        </div>
+        <p class="font-medium text-[28px]/[111%] text-[#FFFFFF]">Locally sourced, organic
+            ingredients for a fresh and eco-friendly experience</p>
+    </section>
+
+
+    <!--hot items lower cards section-->
+    <section class="mt-[300px] flex gap-7 items-center justify-center">
+        <!--First arrow-->
+        <div class="self-center w-[80px] h-[80px] rounded-[50%] bg-white flex items-center justify-center p-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="w-[30px] fill-[#FF7A04]">
+                <path
+                    d="M41.4 297.4C28.9 309.9 28.9 330.2 41.4 342.7L169.4 470.7C181.9 483.2 202.2 483.2 214.7 470.7C227.2 458.2 227.2 437.9 214.7 425.4L141.3 352L576 352C593.7 352 608 337.7 608 320C608 302.3 593.7 288 576 288L141.3 288L214.7 214.6C227.2 202.1 227.2 181.8 214.7 169.3C202.2 156.8 181.9 156.8 169.4 169.3L41.4 297.3z" />
+            </svg>
+        </div>
+
+        <!--Cards-->
+        <div class="flex gap-10">
+            
+            <!--card 1-->
+            <div class="w-full max-w-[322px] h-[410px] rounded-2xl rounded-br-none bg-[#FF8616] relative p-2">
+                <div class="flex place-content-center">
+                    <img class="w-full mt-[-25px] max-w-[283px] max-h-[283px]" src="assets/card-burger.png" alt="burger">
+                    <svg class="absolute top-6 right-6" xmlns="http://www.w3.org/2000/svg" width="26" height="28"
+                        viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="lucide lucide-heart">
+                        <path
+                            d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" />
+                    </svg>
+                </div>
+                <p class="font-medium text-[28px]/[111%] font-poppins text-[#FFFFFF] text-center mt-[-18px]">
+                    Veg
+                    Chizy Burger</p>
+                <div class="flex justify-between place-content-center mt-[40px] px-11">
+                    <p class="text-[28px]/[111%] font-normal text-[#FFFFFF] font-poppins">₹250.00</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                        fill="#FFFFFF">
+                        <path
+                            d="M200-80q-33 0-56.5-23.5T120-160v-480q0-33 23.5-56.5T200-720h80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720h80q33 0 56.5 23.5T840-640v480q0 33-23.5 56.5T760-80H200Zm0-80h560v-480H200v480Zm421.5-298.5Q680-517 680-600h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85h-80q0 83 58.5 141.5T480-400q83 0 141.5-58.5ZM360-720h240q0-50-35-85t-85-35q-50 0-85 35t-35 85ZM200-160v-480 480Z" />
+                    </svg>
+                </div>
+                <div
+                    class="absolute right-0 -bottom-[50px] flex h-[80px] w-21 items-center justify-center rounded-b-2xl bg-[#FF8616]">
+                    <svg class="w-[24px] mt-3 fill-[#FFFFFF] " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path
+                            d="M566.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L466.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l434.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" />
+                    </svg>
+                </div>
+            </div>
+
+            <!--card 2-->
+            <div class="w-[322px] h-[469.25px] rounded-2xl rounded-br-none bg-[#FF8616] relative p-2 mt-[-200px]">
+                <div class="flex place-content-center">
+                    <img class="w-[283px] h-[283px]" src="assets/burger-card-1.png" alt="burger">
+                    <svg class="absolute top-4 right-4" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                        viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="lucide lucide-heart">
+                        <path
+                            d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" />
+                    </svg>
+                </div>
+                <p class="font-medium text-[24px]/[111%] font-poppins text-[#FFFFFF] text-center">
+                    Veg
+                    Chizy Burger</p>
+                <div class="flex gap-[53px] place-content-center mt-[65px]">
+                    <p class="text-[28px]/[111%] font-normal text-[#FFFFFF] font-poppins">₹250.00</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                        fill="#FFFFFF">
+                        <path
+                            d="M200-80q-33 0-56.5-23.5T120-160v-480q0-33 23.5-56.5T200-720h80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720h80q33 0 56.5 23.5T840-640v480q0 33-23.5 56.5T760-80H200Zm0-80h560v-480H200v480Zm421.5-298.5Q680-517 680-600h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85h-80q0 83 58.5 141.5T480-400q83 0 141.5-58.5ZM360-720h240q0-50-35-85t-85-35q-50 0-85 35t-35 85ZM200-160v-480 480Z" />
+                    </svg>
+                </div>
+                <div
+                    class="absolute right-0 -bottom-[50px] flex h-[50px] w-25 items-center justify-center rounded-b-2xl bg-[#FF8616]">
+                    <svg class="w-[17px]  fill-[#FFFFFF] " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path
+                            d="M566.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L466.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l434.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="w-[322px] h-[469.25px] rounded-2xl rounded-br-none bg-[#FF8616] relative p-2">
+                <div class="flex place-content-center">
+                    <img class="w-[283px] h-[283px]" src="assets/burger-card-1.png" alt="burger">
+                    <svg class="absolute top-4 right-4" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                        viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="lucide lucide-heart">
+                        <path
+                            d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" />
+                    </svg>
+                </div>
+                <p class="font-medium text-[24px]/[111%] font-poppins text-[#FFFFFF] text-center">
+                    Veg
+                    Chizy Burger</p>
+                <div class="flex gap-[53px] place-content-center mt-[65px]">
+                    <p class="text-[28px]/[111%] font-normal text-[#FFFFFF] font-poppins">₹250.00</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                        fill="#FFFFFF">
+                        <path
+                            d="M200-80q-33 0-56.5-23.5T120-160v-480q0-33 23.5-56.5T200-720h80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720h80q33 0 56.5 23.5T840-640v480q0 33-23.5 56.5T760-80H200Zm0-80h560v-480H200v480Zm421.5-298.5Q680-517 680-600h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85h-80q0 83 58.5 141.5T480-400q83 0 141.5-58.5ZM360-720h240q0-50-35-85t-85-35q-50 0-85 35t-35 85ZM200-160v-480 480Z" />
+                    </svg>
+                </div>
+                <div
+                    class="absolute right-0 -bottom-[50px] flex h-[50px] w-25 items-center justify-center rounded-b-2xl bg-[#FF8616]">
+                    <svg class="w-[17px]  fill-[#FFFFFF] " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path
+                            d="M566.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L466.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l434.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="w-[322px] h-[469.25px] rounded-2xl rounded-br-none bg-[#FF8616] relative p-2 mt-[-200px]">
+                <div class="flex place-content-center">
+                    <img class="w-[283px] h-[283px]" src="assets/burger-card-1.png" alt="burger">
+                    <svg class="absolute top-4 right-4" xmlns="http://www.w3.org/2000/svg" width="22" height="22"
+                        viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" class="lucide lucide-heart">
+                        <path
+                            d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" />
+                    </svg>
+                </div>
+                <p class="font-medium text-[24px]/[111%] font-poppins text-[#FFFFFF] text-center">
+                    Veg
+                    Chizy Burger</p>
+                <div class="flex gap-[53px] place-content-center mt-[65px]">
+                    <p class="text-[28px]/[111%] font-normal text-[#FFFFFF] font-poppins">₹250.00</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px"
+                        fill="#FFFFFF">
+                        <path
+                            d="M200-80q-33 0-56.5-23.5T120-160v-480q0-33 23.5-56.5T200-720h80q0-83 58.5-141.5T480-920q83 0 141.5 58.5T680-720h80q33 0 56.5 23.5T840-640v480q0 33-23.5 56.5T760-80H200Zm0-80h560v-480H200v480Zm421.5-298.5Q680-517 680-600h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85h-80q0 83 58.5 141.5T480-400q83 0 141.5-58.5ZM360-720h240q0-50-35-85t-85-35q-50 0-85 35t-35 85ZM200-160v-480 480Z" />
+                    </svg>
+                </div>
+                <div
+                    class="absolute right-0 -bottom-[50px] flex h-[50px] w-25 items-center justify-center rounded-b-2xl bg-[#FF8616]">
+                    <svg class="w-[17px]  fill-[#FFFFFF] " xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                        <path
+                            d="M566.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-128-128c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L466.7 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l434.7 0-73.4 73.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l128-128z" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+
+        <!--Second arrow-->
+        <div class="self-center w-[80px] h-[80px] rounded-[50%] bg-white flex items-center justify-center p-1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="w-[30px] fill-[#FF7A04]">
+                <path
+                    d="M598.6 342.6C611.1 330.1 611.1 309.8 598.6 297.3L470.6 169.3C458.1 156.8 437.8 156.8 425.3 169.3C412.8 181.8 412.8 202.1 425.3 214.6L498.7 288L64 288C46.3 288 32 302.3 32 320C32 337.7 46.3 352 64 352L498.7 352L425.3 425.4C412.8 437.9 412.8 458.2 425.3 470.7C437.8 483.2 458.1 483.2 470.6 470.7L598.6 342.7z" />
+            </svg>
         </div>
     </section>
 
