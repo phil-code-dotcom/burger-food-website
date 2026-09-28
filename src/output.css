@@ -449,8 +449,17 @@
   .h-full {
     height: 100%;
   }
+  .max-h-\[4px\] {
+    max-height: 4px;
+  }
   .max-h-\[283px\] {
     max-height: 283px;
+  }
+  .max-h-\[390px\] {
+    max-height: 390px;
+  }
+  .max-h-\[400px\] {
+    max-height: 400px;
   }
   .max-h-\[432px\] {
     max-height: 432px;
@@ -460,6 +469,9 @@
   }
   .max-h-\[925px\] {
     max-height: 925px;
+  }
+  .max-h-\[px\] {
+    max-height: px;
   }
   .w-21 {
     width: calc(var(--spacing) * 21);
@@ -1119,6 +1131,12 @@
     }
     .md\:h-\[834px\] {
       height: 834px;
+    }
+    .md\:max-h-\[390px\] {
+      max-height: 390px;
+    }
+    .md\:max-h-\[476px\] {
+      max-height: 476px;
     }
     .md\:max-h-\[553px\] {
       max-height: 553px;
