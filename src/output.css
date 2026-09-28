@@ -16,6 +16,7 @@
     --font-weight-semibold: 600;
     --font-weight-bold: 700;
     --font-weight-black: 900;
+    --radius-xl: 0.75rem;
     --radius-2xl: 1rem;
     --radius-3xl: 1.5rem;
     --radius-4xl: 2rem;
@@ -299,6 +300,12 @@
   .mt-15 {
     margin-top: calc(var(--spacing) * 15);
   }
+  .mt-18 {
+    margin-top: calc(var(--spacing) * 18);
+  }
+  .mt-19 {
+    margin-top: calc(var(--spacing) * 19);
+  }
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
@@ -385,6 +392,9 @@
   }
   .h-\[60px\] {
     height: 60px;
+  }
+  .h-\[66px\] {
+    height: 66px;
   }
   .h-\[70px\] {
     height: 70px;
@@ -514,6 +524,9 @@
   }
   .w-\[50px\] {
     width: 50px;
+  }
+  .w-\[66px\] {
+    width: 66px;
   }
   .w-\[80px\] {
     width: 80px;
@@ -765,11 +778,23 @@
   .gap-5 {
     gap: calc(var(--spacing) * 5);
   }
+  .gap-7 {
+    gap: calc(var(--spacing) * 7);
+  }
   .gap-9 {
     gap: calc(var(--spacing) * 9);
   }
+  .gap-12 {
+    gap: calc(var(--spacing) * 12);
+  }
   .gap-13 {
     gap: calc(var(--spacing) * 13);
+  }
+  .gap-16 {
+    gap: calc(var(--spacing) * 16);
+  }
+  .gap-18 {
+    gap: calc(var(--spacing) * 18);
   }
   .gap-20 {
     gap: calc(var(--spacing) * 20);
@@ -801,6 +826,9 @@
   .overflow-x-hidden {
     overflow-x: hidden;
   }
+  .rounded {
+    border-radius: 0.25rem;
+  }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
@@ -819,6 +847,9 @@
   .rounded-full {
     border-radius: calc(infinity * 1px);
   }
+  .rounded-xl {
+    border-radius: var(--radius-xl);
+  }
   .rounded-b-2xl {
     border-bottom-right-radius: var(--radius-2xl);
     border-bottom-left-radius: var(--radius-2xl);
@@ -833,6 +864,10 @@
   .border-\[4px\] {
     border-style: var(--tw-border-style);
     border-width: 4px;
+  }
+  .border-\[5px\] {
+    border-style: var(--tw-border-style);
+    border-width: 5px;
   }
   .border-white {
     border-color: var(--color-white);
@@ -866,6 +901,9 @@
   }
   .bg-white {
     background-color: var(--color-white);
+  }
+  .fill-\[\#FAAC66\] {
+    fill: #FAAC66;
   }
   .fill-\[\#FF7A04\] {
     fill: #FF7A04;
