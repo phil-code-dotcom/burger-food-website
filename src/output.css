@@ -1180,6 +1180,12 @@
     .md\:mt-10 {
       margin-top: calc(var(--spacing) * 10);
     }
+    .md\:mt-25 {
+      margin-top: calc(var(--spacing) * 25);
+    }
+    .md\:mt-30 {
+      margin-top: calc(var(--spacing) * 30);
+    }
     .md\:mt-35 {
       margin-top: calc(var(--spacing) * 35);
     }
